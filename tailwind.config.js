@@ -12,6 +12,12 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        Anatonelly: {
+          Primary: '#0c0035',
+          Secundary: '#0a0129',
+        },
+      },
       screens: {
         xxs: '280px',
         xs: '320px',

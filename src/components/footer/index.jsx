@@ -7,7 +7,7 @@ import { MdEmail } from 'react-icons/md';
 
 const index = () => {
   return (
-    <div className='xxs:h-auto md:h-1/2 w-full bg-neutral-800 flex md:flex-row xxs:flex-col md:justify-between items-center p-5 xxs:pb-24 md:py-5 xxs:gap-10 '>
+    <div className='xxs:h-auto md:h-1/2 w-full bg-Anatonelly-Primary flex md:flex-row xxs:flex-col md:justify-between items-center p-5 xxs:pb-24 md:py-5 xxs:gap-10 '>
       <div className=' flex items-center justify-center md:w-1/3 xxs:w-full'>
         <img
           draggable={false}
@@ -26,7 +26,7 @@ const index = () => {
         <a href='https://www.instagram.com/transportes.global'>
           <img draggable={false} src='/Footer/Instagram.png' alt='' />
         </a>
-        <a href='https://wa.me//554598287556?text=Olá+gostaria+de+cotar+um+frete'>
+        <a href='https://wa.me/5531994916651/?text=Ol%C3%A1%2C%20gostaria%20de%20or%C3%A7ar%20um%20software%21%0ANome%20do%20Projeto%3A%20%0ADescri%C3%A7%C3%A3o%20do%20Projeto%20%3A%20%0AFuncionalidades%20Desejadas%20%3A%20%0APrazo%20de%20Entrega%20%3A%20%0AOr%C3%A7amento%20Dispon%C3%ADvel%20%3A%20'>
           <img draggable={false} src='/Footer/Whatsapp.png' alt='' />
         </a>
       </div>
@@ -45,9 +45,6 @@ const index = () => {
           </div>
           <div className='flex flex-col justify-center md:pl-10 xxs:pt-5'>
             <span className='text-white md:text-base xxs:text-sm '>
-              comercial_tol@globaltransportes.log.br{' '}
-            </span>
-            <span className='text-white md:text-base xxs:text-sm '>
               comercial@globaltransportes.log.br{' '}
             </span>
           </div>
@@ -59,7 +56,7 @@ const index = () => {
           </div>
           <div className='flex flex-col justify-center md:pl-10 xxs:pt-5'>
             <span className='text-white md:text-base xxs:text-sm '>
-              +55 (45) 99153-6651
+              +55 (31) 99491-6651
             </span>
           </div>
         </div>

@@ -20,7 +20,7 @@ import CardTech from '@/components/cardTech';
 import { LuMonitor } from 'react-icons/lu';
 import { FaGears, FaPeopleCarryBox } from 'react-icons/fa6';
 import { IoTerminal } from 'react-icons/io5';
-import { FaChevronDown } from 'react-icons/fa';
+import { RiArrowDownDoubleLine, RiScrollToBottomLine } from 'react-icons/ri';
 
 const index = () => {
   // Plugins
@@ -170,7 +170,7 @@ const index = () => {
     <div ref={Tech} className='w-full h-auto flex flex-col '>
       <div
         id='AnatonellyTech'
-        className='bg-neutral-800 h-screen w-full flex flex-col items-center justify-center'
+        className='bg-Anatonelly-Primary h-screen w-full flex flex-col items-center justify-center'
       >
         <div ref={introduction} id='introduction' className='final'>
           <div className='letter T'>T</div>
@@ -182,21 +182,22 @@ const index = () => {
         </div>
         <a
           href='#titleReveal'
-          className='animate-bounce flex justify-center flex-col items-center text-white text-xl absolute bottom-10 '
+          className='animate-bounce gap-2 flex justify-center flex-col items-center text-white text-xl absolute bottom-10 '
         >
-          <p>Scroll down</p>
-          <FaChevronDown className='' />
+          <RiScrollToBottomLine className='text-4xl' />
+          <p className='text-xl'>Scroll Down</p>
+          <RiArrowDownDoubleLine className='text-4xl' />
         </a>
       </div>
       <div className='h-auto w-full flex flex-col'>
         <div
           id='titleReveal'
-          className='w-full h-screen p-10 flex items-start flex-col justify-center bg-neutral-800'
+          className='w-full h-screen p-10 flex items-start flex-col justify-center bg-Anatonelly-Primary'
         >
           <p className='titleReveal font-black  '>
             <span className=''>Seja Bem Vindo!</span>
           </p>
-          <div className='h-auto w-full flex flex-col items-center p-10 pt-0 justify-center gap-10 bg-neutral-800'>
+          <div className='h-auto w-full flex flex-col items-center p-10 pt-0 justify-center gap-10 bg-Anatonelly-Primary'>
             <img
               id='Img'
               className='w-80 shadow-neutral-300'

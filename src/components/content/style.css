@@ -93,7 +93,7 @@
   --color: hsl(0 0% 100% / 0.1);
   --underline-width: 1lh;
   --underline-block-width: 200vmax;
-  --underline-color: #262626;
+  --underline-color: #0c0035;
   --underline-color-hover: hsl(180 100% 50% / 1);
   --underline-transition: 5s;
   --finish-fill: hsl(0 0% 100%);
@@ -166,7 +166,6 @@
     color: var(--finish-fill);
   }
 }
-
 
 @media (max-width: 980px) {
   #introduction {

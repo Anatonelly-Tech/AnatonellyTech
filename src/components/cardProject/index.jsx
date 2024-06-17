@@ -2,7 +2,7 @@ import React from 'react';
 
 const projectCards = ({ image, title, technologies, description, link }) => {
   return (
-    <div className='flex flex-col xs:w-full sm:w-96 shadow-2xl shadow-black hover:scale-[1.02] duration-500 gap-5 p-2 bg-neutral-800 rounded text-white'>
+    <div className='flex flex-col xs:w-full sm:w-96 shadow-2xl shadow-black hover:scale-[1.02] duration-500 gap-5 p-2 bg-Anatonelly-Primary rounded text-white'>
       <div className=' w-full'>
         <a href={link}>
           <img className='rounded' src={image} alt={title} />
