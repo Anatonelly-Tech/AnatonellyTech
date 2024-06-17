@@ -184,8 +184,8 @@ const index = () => {
           href='#titleReveal'
           className='animate-bounce gap-2 flex justify-center flex-col items-center text-white text-xl absolute bottom-10 '
         >
-          <RiScrollToBottomLine className='text-4xl' />
-          <p className='text-xl'>Scroll Down</p>
+          <RiScrollToBottomLine className='text-4xl xxs:hidden md:flex' />
+          <p className='text-xl xxs:hidden md:flex'>Scroll Down</p>
           <RiArrowDownDoubleLine className='text-4xl' />
         </a>
       </div>
@@ -206,7 +206,7 @@ const index = () => {
             />
             <p
               id='Lists'
-              className='font-black md:text-xl xxs:text- text-center text-white '
+              className='font-black md:text-xl xxs:text-sm text-center text-white '
             >
               Nós Anatonnely Tech, estamos aqui para tornar sua visão digital
               uma realidade. Somos uma equipe apaixonada por tecnologia,

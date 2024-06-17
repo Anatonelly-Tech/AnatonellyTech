@@ -7,7 +7,7 @@ import Projects from '@/components/projects';
 
 const page = () => {
   return (
-    <div className='flex flex-col w-full bg-white '>
+    <div className='flex flex-col w-full bg-white overflow-x-hidden '>
       <Content />
       <Projects />
       <Footer />
